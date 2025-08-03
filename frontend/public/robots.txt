@@ -1,0 +1,52 @@
+# robots.txt for https://rootsandrichness.in
+# Optimized for SEO, image indexing, crawl budget, and bot-specific preferences
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: *
+Disallow: /admin/
+Disallow: /cart
+Disallow: /checkout
+Disallow: /api/
+Disallow: /private/
+Disallow: /user/
+Disallow: /account/
+Disallow: /dashboard/
+Disallow: /*.json$
+Disallow: /*.ts$
+Disallow: /*.jsx$
+Disallow: /*.tsx$
+Disallow: /*?*
+Allow: /
+
+# Sitemap declaration
+Sitemap: https://rootsandrichness.in/sitemap.xml
+
+# Preferred host to avoid duplicate domain indexing
+Host: rootsandrichness.in
